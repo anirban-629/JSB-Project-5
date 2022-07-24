@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", "helvetica";
+}
+
+.container {
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position-y: 18%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+.navbar ul li {
+    text-decoration: none;
+}
+
+.list-item {
+    margin: 0px 45px 0px 45px;
+    align-items: center;
+}
+
+.logo {
+    width: 95px;
+    margin: 0 50px 0 55px;
+}
+
+.straightLine {
+    background-color: #ffffff;
+    width: 1px;
+    height: 50px;
+
+}
+
+div .button-small {
+    margin-left: 350px;
+    padding: 6px 30px;
+    background-color: #BA0CC5;
+    color: #ffffff;
+    border: #BA0CC5;
+    border-radius: 6px;
+}
+
+/* Navbar END------------- */
+
+.mainContent {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 158px;
+}
+
+.hero-heading {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    line-height: 10vh;
+    margin-bottom: 20px;
+}
+.hero-description{
+    font-size: 1.65rem;
+    color: #bcb0ca;
+    margin-bottom: 25px;
+}
+.button-large{
+    background-color: #BA0CC5;
+    border: #BA0CC5;
+    font-size: 1.5em;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 50px;
+}
